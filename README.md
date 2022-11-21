@@ -14,16 +14,16 @@ on the casper server at NCAR, with hpath set to a specific directory on GLADE wh
 The script presupposes that the geocat environment is available with Conda.
 
 To install the geocat environment, follow these directions:
- >  conda create -n geocat -c conda-forge -c ncar geocat-comp geocat-datafiles
- >  conda activate geocat
- >  conda install -c conda-forge matplotlib cartopy jupyter
- >  conda install netcdf4
+conda create -n geocat -c conda-forge -c ncar geocat-comp geocat-datafiles
+conda activate geocat
+conda install -c conda-forge matplotlib cartopy jupyter
+conda install netcdf4
 
 Running on your laptop would follow the pattern:
 
-> conda activate geocat
-> python interp.py
-> conda deactivate
+conda activate geocat
+python interp.py
+conda deactivate
 
 The basic run pattern in an HPC environment (for example on casper) is:
 
