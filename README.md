@@ -17,7 +17,7 @@ To install the geocat environment, follow these directions:
 
 conda create -n geocat -c conda-forge -c ncar geocat-comp geocat-datafiles
 
->conda activate geocat
+conda activate geocat
 
 conda install -c conda-forge matplotlib cartopy jupyter
 
